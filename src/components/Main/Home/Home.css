@@ -1,0 +1,185 @@
+.home_container {
+    padding-block: 3rem 2rem;
+    justify-content: center;
+    row-gap: 3.5rem;
+  }
+  
+  .home_data {
+    position: relative;
+    text-align: center;
+  }
+  
+  .home_title {
+    font-size: var(--biggest-font-size);
+    margin-bottom: 1rem;
+  }
+  
+  .home_description {
+    margin-bottom: 2.5rem;
+  }
+  
+  .home_sticker {
+    width: 40px;
+    rotate: 15deg;
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+    opacity: .5;
+  }
+  
+  .home_images {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+  }
+  
+  .home_ingredient {
+    width: 60px;
+    filter: var(--shadow-small-img);
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .home_burger,
+  .home_dish {
+    filter: var(--shadow-big-img);
+  }
+  
+  .home_burger {
+    width: 280px;
+    z-index: 2;
+  }
+  
+  .home_dish {
+    max-width: initial;
+    width: 290px;
+    position: absolute;
+    bottom: -2.2rem;
+  }
+  
+  .home_potato-1 {
+    left: -.75rem;
+    bottom: -2rem;
+  }
+  
+  .home_potato-2 {
+    right: -.75rem;
+    bottom: -2rem;
+    rotate: 90deg;
+  }
+  
+  .home_tomato-1 {
+    width: 40px;
+    top: -1rem;
+    right: 6rem;
+  }
+  
+  .home_tomato-2 {
+    width: 40px;
+    left: 5.5rem;
+    bottom: -1.5rem;
+  }
+  
+  .home_lettuce-1 {
+    top: 2.5rem;
+    right: -2rem;
+    transform: scaleX(-1);
+  }
+  
+  .home_lettuce-2 {
+    left: -2rem;
+    bottom: 1rem;
+  }
+
+/* ----- query screen ------ */
+@media screen and (max-width: 330px) {
+  .home_title {
+      font-size: 2.5rem;
+  }
+
+  .home_burger {
+      width: 210px;
+  }
+  
+  .home_dish {
+      width: 215px;
+      bottom: -1.7rem;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .home_container {
+      grid-template-columns: 360px;
+      justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .home_container {
+    grid-template-columns: 430px 605px;
+    align-items: center;
+    column-gap: 4rem;
+    padding-block: 7rem 4rem;
+  }
+
+  .home_data {
+      text-align: initial;
+  }
+
+  .home_description{
+      margin-bottom: 3.5rem;
+      padding-right: 3rem;
+  }
+
+  .home_sticker {
+      width: 60px;
+      right: 10rem;
+      bottom: 1rem;
+  }
+
+  .home_burger {
+      width: 490px;
+  }
+
+  .home_dish {
+      width: 500px;
+      bottom: -3.4rem;
+  }
+
+  .home_ingredient {
+      width: 100px;
+  }
+
+  .home_potato-1 {
+      left: -2rem;
+      top: 1.5rem;
+  }
+
+  .home_potato-2 {
+      right: -1.5rem;
+      bottom: -3rem;
+  }
+
+  .home_tomato-1 {
+      width: 70px;
+      top: -1.5rem;
+      right: 10rem;
+  }
+
+  .home_tomato-2 {
+      width: 70px;
+      left: 9.5rem;
+      bottom: -2.5rem;
+  }
+
+  .home_lettuce-1 {
+      top: 4rem;
+      right: -3.5rem;
+  }
+
+  .home_lettuce-2 {
+      left: -3.5rem;
+      bottom: 2rem;
+  }
+}
