@@ -7,10 +7,10 @@ import Recipe from './Recipe/Recipe'
 export default function Main() {
   return (
     <main className="main">
-        {/* <Home />
+        <Home />
         <Recipe />
         <Popular />
-        <Delivery /> */}
+        <Delivery />
         <Contact />
     </main>
   )

@@ -1,7 +1,5 @@
-import './Footer.css'
 import SectionTitle from '../../minorComponents/SectionTitle/SectionTitle'
 import ContactSocial from '../../minorComponents/ContactSocial/ContactSocial'
-
 
 export default function Footer() {
   return (
