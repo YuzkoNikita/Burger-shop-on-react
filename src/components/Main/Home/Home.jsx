@@ -1,4 +1,3 @@
-import './Home.css'
 import sticker_potatoes from '../../../assets/sticker-potatoes.svg'
 import home_burger from '../../../assets/home-burger.png'
 import home_dish from '../../../assets/home-dish.png'

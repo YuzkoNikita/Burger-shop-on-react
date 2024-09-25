@@ -7,9 +7,9 @@ import ScrollUpButton from './minorComponents/ScrollUpButton/ScrollUpButton'
 function App() {
   return (
     <>
-      <Header />
-      {/* <Main />
-      <Footer />
+      {/* <Header /> */}
+      <Main />
+      {/* <Footer />
       <ScrollUpButton /> */}
     </>
   )
