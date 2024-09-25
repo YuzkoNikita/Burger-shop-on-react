@@ -8,10 +8,10 @@ export default function Main() {
   return (
     <main className="main">
         {/* <Home />
-        <Recipe /> */}
-        <Popular />
-        {/* <Delivery />
-        <Contact /> */}
+        <Recipe />
+        <Popular /> */}
+        <Delivery />
+        {/* <Contact /> */}
     </main>
   )
 }

@@ -1,5 +1,4 @@
 import SectionTitle from '../../../minorComponents/SectionTitle/SectionTitle'
-import './Delivery.css'
 import sticker_glass from '../../../assets/sticker-glass.svg'
 import delivery_burger from '../../../assets/delivery-burger.png'
 
