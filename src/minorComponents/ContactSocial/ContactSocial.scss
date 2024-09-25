@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   column-gap: 1rem;
-}
-
-.contact_social a{
+  &:hover {
+    transform: translateY(-.25rem);
+  }
+  a{
     width: 32px;
     height: 32px;
     background-color: hsl(45, 99%, 55%);
@@ -14,7 +15,4 @@
     place-items: center;
     transition: transform .4s;
   }
-
-  .contact_social a:hover {
-    transform: translateY(-.25rem);
-  }
+}
