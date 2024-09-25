@@ -1,5 +1,3 @@
-import './PopularCard.css'
-
 // eslint-disable-next-line react/prop-types
 export default function PopularCard({img, popularTitle, price}) {
   return (
