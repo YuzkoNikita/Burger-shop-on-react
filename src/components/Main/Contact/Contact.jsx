@@ -1,5 +1,4 @@
 import SectionTitle from '../../../minorComponents/SectionTitle/SectionTitle'
-import './Contact.css'
 import ContactCard from './ContactCard/ContactCard'
 import contact_man from '../../../assets/contact-man.png'
 import sticker_burger from '../../../assets/sticker-burger.svg'

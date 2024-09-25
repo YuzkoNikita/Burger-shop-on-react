@@ -9,9 +9,9 @@ export default function Main() {
     <main className="main">
         {/* <Home />
         <Recipe />
-        <Popular /> */}
-        <Delivery />
-        {/* <Contact /> */}
+        <Popular />
+        <Delivery /> */}
+        <Contact />
     </main>
   )
 }

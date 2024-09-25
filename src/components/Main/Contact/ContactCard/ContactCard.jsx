@@ -1,5 +1,3 @@
-import './ContactCard.css'
-
 // eslint-disable-next-line react/prop-types
 export default function ContactCard({contactTitle, info}) {
   return (
