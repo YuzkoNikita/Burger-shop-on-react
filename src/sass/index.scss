@@ -1,2 +1,7 @@
 // Base styles
 @import "./base/base";
+
+// Components
+// Header components
+@import "../components/Header/Header.scss";
+@import "../components/Header/Navbar/Navbar.scss";

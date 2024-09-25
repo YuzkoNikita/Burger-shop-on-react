@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import logo_burger from '../../../assets/logo-burger.svg'
-import './Navbar.css'
 import { Link } from "react-scroll";
 
 export default function Navbar() {

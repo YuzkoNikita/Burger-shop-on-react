@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import Navbar from './Navbar/Navbar.jsx'
-import './Header.css'
 
 export const Header = () => {
   const [shadow, setShadow] = useState(false);
