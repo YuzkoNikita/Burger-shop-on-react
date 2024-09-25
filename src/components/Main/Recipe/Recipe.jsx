@@ -1,4 +1,3 @@
-import './Recipe.css'
 import recipe_burger from '../../../assets/recipe-burger.png'
 import recipe_bread from '../../../assets/recipe-bread.png'
 import recipe_cheese from '../../../assets/recipe-cheese.png'

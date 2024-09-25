@@ -7,11 +7,11 @@ import Recipe from './Recipe/Recipe'
 export default function Main() {
   return (
     <main className="main">
-        <Home />
+        {/* <Home /> */}
         <Recipe />
-        <Popular />
+        {/* <Popular />
         <Delivery />
-        <Contact />
+        <Contact /> */}
     </main>
   )
 }
